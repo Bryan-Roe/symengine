@@ -1,4 +1,3 @@
-from sympy.printing.pycode import PythonCodePrinter
 from sympy.printing.printer import Printer
 from sympy import Add, Mul
 

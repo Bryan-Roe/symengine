@@ -111,7 +111,7 @@ TEST_CASE("GeneratedMatchPyTest{0}", "")
                     matched = S(matched)
                 if isinstance(matched, Basic):
                     matched = symengine_print(matched)
-                fout.write('    REQUIRE(substitution.find("{0}") != substitution.end());\n'.format(wildcard, matched))
+                fout.write('    REQUIRE(substitution.find("{0}") != substitution.end());\n'.format(wildcard, ))
                 fout.write('    REQUIRE(eq(*(*substitution.at("{0}").begin()), *{1}));\n'.format(wildcard, matched))
         else:
             fout.write("    // Pattern {0} not matching:\n".format(test_case))

@@ -1,12 +1,11 @@
 import re
 import sympy
-from collections import defaultdict
 
 from multiset import Multiset
 
 from matchpy.expressions.expressions import Wildcard, AssociativeOperation, SymbolWildcard
 from matchpy.expressions.constraints import CustomConstraint
-from matchpy.expressions.functions import op_iter, get_variables
+from matchpy.expressions.functions import get_variables
 from matchpy.matching.syntactic import OPERATION_END, is_operation
 from matchpy.matching.many_to_one import _EPS
 from matchpy.utils import get_short_lambda_source
