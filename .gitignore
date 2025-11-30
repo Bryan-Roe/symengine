@@ -14,7 +14,7 @@ cmake-build-*
 # Cotire
 symengine/cotire
 symengine/symengine_CXX_cotire.cmake
-
+symengine/*
 # Compiled Object Files, Static/Dynamic Libraries
 *.so
 *.a
@@ -198,3 +198,6 @@ compile_commands.json
 gen_docs/
 /docs/Doxygen/tags/
 *.ipynb
+
+
+
